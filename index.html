@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Management Panel</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script defer type="module" src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container pt-4 pb-4">
+    <form class="mb-4" action="#" id="add-form">
+      <div class="mb-3">
+      <input class="form-control"  type="text" id="name-inp" placeholder="Имя">
+    </div>
+    <div class="mb-3">
+      <input class="form-control"  type="text" id="lastname-inp" placeholder="Фамилия">
+    </div>
+    <div class="mb-3">
+      <input class="form-control"  type="text" id="surname-inp" placeholder="Отчество">
+    </div>
+    <div class="mb-3">
+      <input class="form-control"  type="date" id="burthday-inp" placeholder="День рождения">
+    </div>
+    <div class="mb-3">
+      <input class="form-control"  type="text" id="faculty-inp" placeholder="Факультет">
+    </div>
+    <div class="mb-3">
+      <input class="form-control"  type="number" id="studyStart-inp" placeholder="Дата поступления">
+    </div>
+    <button type="submit" class="btn btn-primary">Добавить</button>
+    </form>
+
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>ФИО</th>
+            <th>Дата рождения</th>
+            <th>Факультет</th>
+            <th>Год поступления</th>
+            <th></th>
+          </tr>
+          <tbody id="stud-table">
+
+          </tbody>
+        </thead>
+      </table>
+  </div>
+
+
+</body>
+
+
+</html>
+
